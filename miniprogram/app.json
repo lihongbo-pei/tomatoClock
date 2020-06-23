@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#E7624F",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor":"#000000",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "计时",
+        "iconPath":"./images/jishi2.png",
+        "selectedIconPath":"./images/jishi.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "统计",
+        "iconPath": "./images/tongji2.png",
+        "selectedIconPath": "./images/tongji.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
